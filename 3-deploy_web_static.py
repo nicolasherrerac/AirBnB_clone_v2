@@ -17,6 +17,7 @@ def do_pack():
     else:
         return None
 
+
 def do_deploy(archive_path):
     """Deploy"""
     if os.path.exists(archive_path) is False:
@@ -36,6 +37,7 @@ def do_deploy(archive_path):
         return True
     except:
         return False
+
 
 def deploy():
     """Full deployment"""
