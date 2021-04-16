@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/python3
 """script that generates a .tgz"""
 from datetime import datetime
 from fabric.api import local
